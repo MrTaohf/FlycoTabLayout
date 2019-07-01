@@ -4,7 +4,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.novoda.bintray-release'
 
 // 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version
-version = "3.0.1"
+version = "3.1.0"
 android {
     compileSdkVersion 28
 
@@ -28,7 +28,7 @@ dependencies {
 }
 
 publish {
-    userOrg = 'yiyi'
+    userOrg = 'taohf'
     groupId = 'com.taohf.tablayout'
     artifactId = 'FlycoTabLayout'
     publishVersion = "${version}"
